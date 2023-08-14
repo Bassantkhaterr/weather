@@ -1,0 +1,124 @@
+*{
+ padding: 0%;
+ margin: 0%;
+}
+#nav{
+    background-color: #1e202b;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#li_hover{
+    border: solid 2px transparent;
+    border-radius:30px;
+    padding:5px 20px;
+    color:white;
+    transition:0.5s;
+}
+#li_hover:hover{
+    border: solid  2px  #009ad8;
+    color: #009ad8;
+    transition-duration:0.5s;
+}
+.tabel-search{
+    background-color: #1e202b;
+    height: 85vh;
+    position: relative;
+
+}
+#tabel-image{
+    background-image: url(banner.png);
+    background-size: 100% 100%;
+    padding:50px ;
+    min-height: 350px;
+}
+#se{
+    width: 100%;
+    border:transparent solid 1px ;
+    background-color: #1e202b;
+    color: white; 
+}
+#se:focus{
+    outline: none;
+}
+#sub{
+    width: 100%;
+    border:transparent solid 1px ;
+    background-color: #1e202b;
+    color: white;
+}
+#sub:focus{
+    outline: none;
+
+}
+#search-weather{
+    width: 100%;
+    color: white;
+    background-color: #1e202b;
+    border-radius:2rem;
+    padding: 10px;
+}
+#btn{
+    padding: 10px 35px;
+    border-radius:2rem;
+    background-color: #009ad8;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+#pack{
+    width: 100%;
+    position: absolute;
+    top:40%;
+    left: 0;
+}
+#boxA{
+    background-color: #323547;
+    color: white;  
+} 
+#boxA-one{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#boxB{
+    background-color: #262936;
+    color: white;
+}
+#boxB-one{
+    background-color: rgba(0, 0, 0, 0.1);  
+    color: #bfc1c8;
+}
+.footer{
+    height:30vh;
+}
+#search-email{
+    width:60%;
+    height:50%;
+    color: white;
+    background-color: #1e202b;
+    border-radius:2rem;
+    padding:8px 15px ;
+    margin-left: 5%;
+}    
+#icons{
+     background-color:#1e202b;
+     width: 40px;     
+     height: 40px;
+     border-radius: 50%;
+     color: #009ad8;
+     text-decoration: none;
+     transition:0.5s;
+}
+#icons:hover{
+    background-color: #009ad8;
+    color: white;
+    transition-duration:0.5s
+}
+#btn2{
+    padding: 10px 30px;
+    border-radius:2rem;
+    background-color: #009ad8;
+    color: white;
+    border: none;
+}
